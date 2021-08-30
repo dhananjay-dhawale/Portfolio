@@ -18,12 +18,21 @@ h1 {
 h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
+  font-weight: bolder;
 }
 
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
 }
 
 div {
@@ -33,6 +42,12 @@ div {
 .top-container {
   position: relative;
   padding: 100px;
+}
+
+.bottom-container {
+  position: relative;
+  padding: 30px;
+  background-color: #64C9CF;
 }
 
 .bottom-cloud {
@@ -65,8 +80,70 @@ div {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
+    line-height: 2;
 }
 
 .My-skills {
   font-weight: bolder;
+}
+
+.code-pic {
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.web-pic {
+  width: 300px;
+  height: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.get-in-touch {
+  color: #00C1D4;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 12px;
+  background-color: #64C9CF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 8px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.contact-me {
+  margin-bottom: 50px;
 }
