@@ -18,9 +18,11 @@ h1 {
 h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
 
 h3 {
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -48,4 +50,23 @@ div {
 .profile-pic {
   width: 200px;
   height: 200px;
+}
+
+.footer-link {
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: underline;
+    padding: 0 8px 0 8px;
+    margin: 0 8px 0 8px;
+  color: #11999E;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.My-skills {
+  font-weight: bolder;
 }
