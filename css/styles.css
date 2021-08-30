@@ -76,6 +76,10 @@ div {
   color: #11999E;
 }
 
+.skills {
+  top: 50px;
+}
+
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
@@ -84,7 +88,9 @@ div {
 }
 
 .My-skills {
+  margin-top: 80px;
   font-weight: bolder;
+  font-size: 3em;
 }
 
 .code-pic {
@@ -145,5 +151,6 @@ div {
 }
 
 .contact-me {
+  margin-top: 50px;
   margin-bottom: 50px;
 }
